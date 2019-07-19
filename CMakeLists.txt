@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(Archiver VERSION 1.0.0 LANGUAGES CXX)
+file(GLOB CPPS "*.cpp")
+add_executable(${PROJECT_NAME} ${CPPS})
+include_directories(headers)
